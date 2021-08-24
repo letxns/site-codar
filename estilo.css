@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	overflow-x: hidden; 
+}
+
 .container {
 	width: 95%;
 	max-width: 1080px;
@@ -98,7 +102,7 @@ h3 {
 	margin: auto;
 	padding: auto;
 	display: inline;
-	font-size: 2.2em;
+	font-size: 2.8em;
 }
 
 h5 {
@@ -125,8 +129,8 @@ footer {
 	color: #c0c0c0;
 	display: flex;
 	padding: 1em 1em;
-	align-items: center;
-	width: auto;
+	align-items: left;
+	width: 100%;
 }
 
 footer i {
@@ -182,5 +186,6 @@ button.navbar-toggler {
 			}
 
 		}
+
 
 
