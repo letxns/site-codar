@@ -5,19 +5,19 @@
 }
 
 .container {
-	width: 95%
+	width: 95%;
 	max-width: 1080px;
 }
 
 .containerp {
 	margin: 2em;
-	width: 95%
+	width: 95%;
 	max-width: 1080px;
 }
 
 .containerS {
 	text-align: justify;
-	width: 95%
+	width: 95%;
 	max-width: 1080px;
 }
 
@@ -31,14 +31,14 @@
 .areaS {
 	margin: 2.5em;
 	padding: 1em;
-	width: 95%
 	max-width: 1080px;
 	display: inline;
+	border: 1px solid red;
 }
 
 .contato {
 	padding-left: 2em;
-	width: 95%
+	width: 95%;
 	max-width: 1080px;
 }
 
@@ -113,6 +113,7 @@ h5 {
 	margin: auto;
 	width: auto;
 	text-align: right;
+	width: 50%;
 }
 
 aside img {
@@ -127,7 +128,6 @@ footer {
 	padding: 1em 1em;
 	align-items: center;
 	width: auto;
-	max-width: 1080px;
 }
 
 footer i {
@@ -185,47 +185,3 @@ button.navbar-toggler {
 		}
 
 
-	/* Extra small devices (portraint phones, less than 576px)	
-		@media (max-width: 575.98px) {
-			body {
-
-			}
-		}
-
-		/* Small devices (Landscape phones, 576px and up)		*
-		@media (min-width: 576px) and (max-width: 767.98px) {body {
-
-			}
-		}
-
-		/* Medium devices (tablets, 768px and up)		*
-		@media (min-width: 768px) and (max-width: 991.98px) {
-
-		}
-
-		/* Large devices (Desktops, 992px and up)		*
-		@media (min-width: 992px) and (max-width: 1199.98px) {body {
-
-			}
-		}
-		/* Extra large devices (large desktops, 1200px and up)		*
-		@media (min-width: 1200px) {
-		body {
-
-			}	
-		}
-
-*/
-
-
-
-
- /*
-
-@media only screen and (max-device-width: 992px) {
-
-body { 
-	width: 100%; 
-	} 
-}
-*/
