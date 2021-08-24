@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 95%
+	max-width: 1080px;
+}
+
+.containerp {
+	margin: 2em;
+	width: 95%
+	max-width: 1080px;
+}
+
+.containerS {
+	text-align: justify;
+	width: 95%
+	max-width: 1080px;
+}
+
+.textoprincipal {
+	margin: 1.5em auto;
+	font-family: Roboto, sans-serif;
+	width: auto;
+	padding: 1em;
+}
+
+.areaS {
+	margin: 2.5em;
+	padding: 1em;
+	width: 95%
+	max-width: 1080px;
+	display: inline;
+}
+
+.contato {
+	padding-left: 2em;
+	width: 95%
+	max-width: 1080px;
+}
+
+.recomendacoes {
+	margin: 1.5em;
+	background-color: #efefef;
+	border-radius: 1.5em;
+	padding: 1em;
+	font-size: 1.1em;
+	width: 95%;
+}
+
+.icon {
+display: inline-flex;
+}
+
+.borderR {
+	border-radius: 50px;
+	background: #cedbd7;
+	padding: 0.9em;
+	width: 65px;
+	height: 65px;
+
+}
+
+.textoRec {
+	margin: -4em 0em 0em 5em; /* auto*/
+	display: block;
+	text-align: justify-all;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
+
+.textofooter a {
+	text-decoration: none;
+}
+
+.areaS i {
+	padding: 0.3em 0.2em;
+	margin: auto;
+	color: #D6000D;
+	font-size: 1.5em;
+}
+
+
+h1 {
+	color: #D6000D;
+	font-family: Roboto, sans-serif;
+	font-size: 2.2em;
+	margin: auto;
+	padding: auto;
+	display: inline;
+}
+
+h3 {
+	text-align: left;
+	margin: auto;
+	padding: auto;
+	display: inline;
+	font-size: 2.2em;
+}
+
+h5 {
+	display: inline;
+	font-size: 1.5em;
+	font-family: Roboto, sans-serif; 
+	width: 95%;
+}
+
+.img2 {
+	margin: auto;
+	width: auto;
+	text-align: right;
+}
+
+aside img {
+	float: right;
+	width: 70%;
+}
+
+footer {
+	background-color: #000;
+	color: #c0c0c0;
+	display: flex;
+	padding: 1em 1em;
+	align-items: center;
+	width: auto;
+	max-width: 1080px;
+}
+
+footer i {
+	color: #D6000D;
+	font-size: 35px;
+	padding: 0px 5px;
+	display: flex;
+}
+
+button.navbar-toggler {
+	float: right;
+}
+
+#celular {
+	color: black;
+	text-align: left;
+}
+
+#hamburguer {
+	padding: 15px 15px;
+}
+
+
+
+		@media (max-width: 770px) { 
+			footer {
+				width: 0.1em auto;
+				height: 0.1em auto;
+				margin: 0.1em auto;
+				padding: 0.1em auto;
+				align-items: center;
+			}
+
+			.textofooter {
+				margin: 0.1em auto;
+				padding: auto;
+				height: 200px;
+				display: block;
+			}
+
+			.areaS {
+				width: auto;
+				margin: -5em 0em 1em 1em;
+			}
+
+			.recomendacoes {
+				width: auto;
+				height: auto;
+			}
+
+			.textoRec {
+				margin: -4em 0em 0em 4.5em;
+			}
+
+		}
+
+
+	/* Extra small devices (portraint phones, less than 576px)	
+		@media (max-width: 575.98px) {
+			body {
+
+			}
+		}
+
+		/* Small devices (Landscape phones, 576px and up)		*
+		@media (min-width: 576px) and (max-width: 767.98px) {body {
+
+			}
+		}
+
+		/* Medium devices (tablets, 768px and up)		*
+		@media (min-width: 768px) and (max-width: 991.98px) {
+
+		}
+
+		/* Large devices (Desktops, 992px and up)		*
+		@media (min-width: 992px) and (max-width: 1199.98px) {body {
+
+			}
+		}
+		/* Extra large devices (large desktops, 1200px and up)		*
+		@media (min-width: 1200px) {
+		body {
+
+			}	
+		}
+
+*/
+
+
+
+
+ /*
+
+@media only screen and (max-device-width: 992px) {
+
+body { 
+	width: 100%; 
+	} 
+}
+*/
