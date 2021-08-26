@@ -10,9 +10,7 @@
     Site de uma empresa que desenvolve sites
        <br />
     <br />
-    <a href="https://github.com/Lorenalgm/codar">Desafio</a>
-    ·
-    <a href="https://www.linkedin.com/in/lorenagmontes/">Contato</a>
+    <a href="https://letxns.github.io/site-codar/">Desafio</a>
   </p>
 </p>
 
